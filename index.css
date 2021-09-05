@@ -1,0 +1,71 @@
+/*
+ #3D5B59 --> Teal Green
+ #3D5B59 --> mint
+ #FCB5AC --> salmon
+ #65463E --> brown
+ 
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+background-color: #FFA384;
+font-family: 'Julius Sans One', sans-serif;
+}
+
+header{
+    display: block;
+    margin: 0px auto;
+    padding: 2px 10px;
+    text-align: center;
+    font-size: 50px;
+    /* border: 2px solid white; */
+    background:#3B9778;
+}
+#af{
+    margin: 0px auto;
+    padding: 15px 2px;
+    text-align: center;
+    /* border: 2px solid white; */
+    background: #EFE7BC;
+    font-size: 35px;
+}
+#main-form{
+    /* border: 2px solid white; */
+    margin: 0px auto;
+    padding: 15px 20px;
+}
+#attribute li{
+    margin: 5px auto;
+    padding: 5px 10px;
+    /* border: 2px solid whitesmoke; */
+}
+.btn{
+    margin: 5px;
+    padding: 5px;
+    border: white;
+    border-radius: 5px;
+    
+}
+.btn:hover{
+    color: grey;
+}
+
+
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    border: 2px solid white;
+    color: white;
+    background: #3D5B59;
+
+}
